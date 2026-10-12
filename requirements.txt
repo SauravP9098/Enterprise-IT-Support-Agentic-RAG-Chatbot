@@ -17,3 +17,5 @@ langchain-groq
 pypdf
 python-docx
 python-dotenv
+sentence-transformers
+langchain-huggingface
