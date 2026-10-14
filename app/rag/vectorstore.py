@@ -80,7 +80,7 @@ def get_vectorstore():
     return _vectorstore
 
 def get_retriever():
-    return get_retriever().as_retriever(search_kwargs={"k": settings.top_k})
+    return get_vectorstore().as_retriever(search_kwargs={"k": settings.top_k})
 
 
 def add_documents(chunks):
